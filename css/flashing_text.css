@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(73, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    width: 100%;
+}
+#test {
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+}
