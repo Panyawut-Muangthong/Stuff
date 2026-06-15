@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(73, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+    animation: fade_in 2.5s ease-in-out forwards;
+}
+p {
+    animation: fade_in_out 2s ease-in-out infinite;
+}
+@keyframes fade_in_out {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
