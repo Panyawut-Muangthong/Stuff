@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(73, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+    animation: led 10s linear infinite;
+}
+@keyframes led {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
