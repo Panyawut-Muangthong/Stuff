@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(73, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+    animation: fade_in 2.5s ease-in-out forwards;
+}
+p {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: reveal 5s forwards;
+}
+@keyframes reveal {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
